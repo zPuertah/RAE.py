@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "bs4"]
+build-backend = "hatchling.build"
+[project]
+name = "Rae.py_zPuerta"
+version = "0.1.0"
+authors = [
+  { name="zPuerta", email="zpuerta.dev@gmail.com" },
+]
+description = "Is only a scrapper to make a search in the DLE Rae´s page"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
